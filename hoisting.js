@@ -1,7 +1,6 @@
-var a = 10;
-function f() {
-  var x = 1;
-}
-console.log(this.a);
-console.log(window.a);
+var a;
+console.log(a);
+a = 10;
+console.log(a);
+a = "hello";
 console.log(a);
