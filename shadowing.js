@@ -1,6 +1,8 @@
-let a = 10;
+const x = 10;
 {
-  let a = 100;
-  console.log(a);
+  const x = 20;
+  {
+    //const x = 30;
+    console.log(x);
+  }
 }
-console.log(a);
