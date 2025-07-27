@@ -1,8 +1,8 @@
-const x = 10;
-{
-  const x = 20;
-  {
-    //const x = 30;
-    console.log(x);
-  }
+function a() {
+  console.log(y);
 }
+var y = function b() {
+  console.log(x);
+};
+
+a();
