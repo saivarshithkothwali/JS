@@ -1,11 +1,12 @@
-function a() {
-  var x = 10;
-  function b() {
-    console.log(x);
+function x() {
+  var b = 10;
+  function y() {
+    var a = 7;
+    function z() {
+      console.log(a, b);
+    }
+    z();
   }
-  var x = 700;
-  return b;
+  y();
 }
-var c = a();
-console.log(c);
-c();
+x();
