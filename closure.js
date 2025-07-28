@@ -1,12 +1,11 @@
-function x() {
-  var a = 7;
-
-  function y() {
-    console.log(a);
+function a() {
+  var x = 10;
+  function b() {
+    console.log(x);
   }
-  return y;
+  var x = 700;
+  return b;
 }
-var z = x();
-console.log(z);
-//1000's of lines of code ........
-z();
+var c = a();
+console.log(c);
+c();
